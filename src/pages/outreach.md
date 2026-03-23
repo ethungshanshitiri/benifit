@@ -3,7 +3,6 @@ title: Outreach
 slug: /outreach
 ---
 
-# Outreach
 
 BeNiFIt includes a public communication component designed to explain why in vivo sensing matters, what the project is trying to achieve, and how its ideas may eventually support faster and less invasive diagnostics.
 
