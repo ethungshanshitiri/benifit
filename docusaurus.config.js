@@ -3,13 +3,13 @@
 const config = {
   title: 'BeNiFIt',
   tagline: 'In vivo biomarker sensing through intrabody nanoscale communication',
-  favicon: 'img/benefit-mark.svg',
+  favicon: 'img/benifit-mark.svg',
 
   url: 'https://ethungshanshitiri.github.io',
-  baseUrl: '/benefit/',
+  baseUrl: '/benifit/',
 
   organizationName: 'ethungshanshitiri',
-  projectName: 'benefit',
+  projectName: 'benifit',
   trailingSlash: true,
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/benefit-hero.svg',
+      image: 'img/benifit-hero.svg',
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
@@ -50,7 +50,7 @@ const config = {
         title: 'BeNiFIt',
         logo: {
           alt: 'BeNiFIt logo',
-          src: 'img/benefit-mark.svg'
+          src: 'img/benifit-mark.svg'
         },
         items: [
           {to: '/', label: 'Home', position: 'left'},
@@ -80,7 +80,7 @@ const config = {
             title: 'Open Science',
             items: [
               {label: 'GitHub profile', href: 'https://github.com/ethungshanshitiri'},
-              {label: 'Project repository', href: 'https://github.com/ethungshanshitiri/benefit'},
+              {label: 'Project repository', href: 'https://github.com/ethungshanshitiri/benifit'},
               {label: 'UPC', href: 'https://www.upc.edu/en'},
               {label: 'N3Cat', href: 'https://n3cat.upc.edu/'}
             ]
