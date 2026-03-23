@@ -53,7 +53,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.heroArtWrap}>
-              <img className={styles.heroArt} src="img/benefit-hero.svg" alt="Abstract illustration of biomarkers, nanosensors, and on-body readout" />
+              <img className={styles.heroArt} src="BeNiFIt graphical Abstract.png" alt="Abstract illustration of biomarkers, nanosensors, and on-body readout" />
             </div>
           </div>
         </div>
