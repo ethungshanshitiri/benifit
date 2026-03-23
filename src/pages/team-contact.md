@@ -26,12 +26,6 @@ Design-space exploration, protocol design, and nanoscale communication systems
 
 ## Collaborating institutions
 
-### Institute for Bioengineering of Catalonia, IBEC
-
-**Samuel Sánchez**  
-Smart Nano-Bio-Devices group  
-Biosensors, functionalization context, and bioengineering perspective
-
 ### Norwegian University of Science and Technology, NTNU
 
 **Ilangko Balasingham**  
