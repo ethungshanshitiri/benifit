@@ -53,7 +53,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.heroArtWrap}>
-              <img className={styles.heroArt} src="BeNiFIt graphical Abstract.png" alt="" />
+              <img className={styles.heroArt} src="BeNiFIt_Abstract.png" alt="" />
             </div>
           </div>
         </div>
