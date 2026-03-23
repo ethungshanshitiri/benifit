@@ -3,10 +3,6 @@ title: Research Outputs
 slug: /research-outputs
 ---
 
-# Research Outputs
-
-This page is structured to archive publications, talks, posters, preprints, software releases, and public data products connected to BeNiFIt.
-
 ## Publications
 
 Use this section for journal papers, conference papers, and book chapters.
