@@ -3,7 +3,6 @@ title: Project
 slug: /project
 ---
 
-# Project
 
 BeNiFIt explores whether **intra-body nanoscale communication** can support **in vivo biomarker sensing in the bloodstream**. The project brings together biomarker dynamics, biosensing, passive magnetic communication, and system-level simulation so that sensing and readout can be studied as one end-to-end system rather than as disconnected parts.
 
