@@ -37,7 +37,7 @@ export default function Home() {
         <div className="container">
           <div className={styles.heroGrid}>
             <div>
-              <p className={styles.eyebrow}>BeNiFIt</p>
+              
               <h1 className={styles.title}>
                 Towards real-time in vivo biomarker sensing through intrabody nanoscale communication
               </h1>
