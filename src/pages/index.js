@@ -125,14 +125,11 @@ export default function Home() {
               <div>
                 <h2>Open science and public engagement</h2>
                 <p>
-                  The website is designed to host project updates, research outputs, outreach activities, and eventually public-facing links to software and generated data.
+                  The website is designed to host project updates, research outputs, and eventually public-facing links to software and generated data.
                 </p>
               </div>
               <div className={styles.ctaLinks}>
-                <Link className="button button--primary" to="/outreach">
-                  Outreach activities
-                </Link>
-                <Link className="button button--outline button--primary" to="/news">
+                  <Link className="button button--outline button--primary" to="/news">
                   News and media
                 </Link>
               </div>
