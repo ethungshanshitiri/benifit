@@ -81,6 +81,17 @@ body {
     font-size: 0.84rem !important;
   }
 
+html body .theme-blog-list-page main article h2,
+html body .theme-blog-list-page main article h2 a {
+  font-size: 1.35rem !important;
+  line-height: 1.2 !important;
+}
+
+html body .theme-blog-list-page aside a {
+  font-size: 0.82rem !important;
+  line-height: 1.3 !important;
+}
+
   .theme-blog-post-page h1 {
     font-size: 1.6rem !important;
   }
