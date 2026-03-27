@@ -26,7 +26,7 @@ Design-space exploration, protocol design, and nanoscale communication systems
 
 ## Collaborating institutions
 
-### Norwegian University of Science and Technology, NTNU
+### Norwegian University of Science and Technology, NTNU/ Oslo University Hospital, OUH
 
 **Ilangko Balasingham**  
 Wireless Biomedical Sensor Network Research Group  
@@ -45,5 +45,4 @@ You can adapt this section in a few minutes.
 
 - [UPC](https://www.upc.edu/en)
 - [N3Cat](https://n3cat.upc.edu/)
-- [IBEC](https://ibecbarcelona.eu/)
-- [NTNU](https://www.ntnu.edu/)
+- [NTNU](https://www.ntnu.edu/)/[OUH](https://ous-research.no/balasingham/)
