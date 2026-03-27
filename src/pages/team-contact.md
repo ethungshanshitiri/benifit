@@ -12,7 +12,6 @@ Senior Researcher
 NaNoNetworking Center in Catalonia, N3Cat  
 Universitat Politècnica de Catalunya, UPC BarcelonaTech
 
-Add your preferred public contact details here.
 
 ## Host team
 
@@ -33,13 +32,8 @@ Wireless Biomedical Sensor Network Research Group
 Passive wireless systems, gateway design, and biomedical communication perspective
 
 ## Contact
+Email: ethungshan.shitiri@upc.edu
 
-You can adapt this section in a few minutes.
-
-- Project email
-- Institutional address
-- GitHub repository
-- LinkedIn or professional profile
 
 ## Useful links
 
