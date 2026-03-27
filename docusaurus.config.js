@@ -56,7 +56,6 @@ const config = {
           {to: '/', label: 'Home', position: 'left'},
           {to: '/project', label: 'Project', position: 'left'},
           {to: '/research-outputs', label: 'Research Outputs', position: 'left'},
-          {to: '/outreach', label: 'Outreach', position: 'left'},
           {to: '/news', label: 'News & Media', position: 'left'},
           {to: '/team-contact', label: 'Team & Contact', position: 'left'},
           {href: 'https://github.com/ethungshanshitiri', label: 'GitHub', position: 'right'}
@@ -71,7 +70,6 @@ const config = {
               {label: 'Home', to: '/'},
               {label: 'Project', to: '/project'},
               {label: 'Research Outputs', to: '/research-outputs'},
-              {label: 'Outreach', to: '/outreach'},
               {label: 'News & Media', to: '/news'},
               {label: 'Team & Contact', to: '/team-contact'}
             ]
