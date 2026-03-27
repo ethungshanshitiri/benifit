@@ -96,3 +96,8 @@ html body .theme-blog-list-page aside a {
     font-size: 1.6rem !important;
   }
 }
+
+.theme-blog-list-page h2 a {
+  color: red !important;
+  font-size: 1.2rem !important;
+}
