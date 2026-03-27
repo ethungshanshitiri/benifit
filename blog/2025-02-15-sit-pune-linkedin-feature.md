@@ -1,6 +1,6 @@
 ---
 slug: sit-pune-linkedin-feature
-title: SIT Pune shared the BeNiFIt lecture on LinkedIn
+title: Talk at SIT Pune
 authors: [ethungshan]
 tags: [social-media, media, benifit, lecture]
 date: 2025-02-15
