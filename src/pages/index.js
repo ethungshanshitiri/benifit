@@ -125,7 +125,7 @@ export default function Home() {
               <div>
                 <h2>Open science and public engagement</h2>
                 <p>
-                  The website is designed to host project updates, research outputs, and eventually public-facing links to software and generated data.
+                  For more details, please go to News and media.
                 </p>
               </div>
               <div className={styles.ctaLinks}>
