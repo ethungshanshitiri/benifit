@@ -4,84 +4,12 @@ slug: /project
 ---
 
 
-BeNiFIt explores whether **intra-body nanoscale communication** can support **in vivo biomarker sensing in the bloodstream**. The project brings together biomarker dynamics, biosensing, passive magnetic communication, and system-level simulation so that sensing and readout can be studied as one end-to-end system rather than as disconnected parts.
+Chronic diseases such as cancer, Alzheimer’s disease, and diabetes place a major burden on patients, healthcare systems, and society. Better outcomes depend strongly on earlier diagnosis and closer monitoring over time. Yet this remains difficult when disease signals are present in very small amounts and when current tests depend on taking samples out of the body and processing them in the laboratory. Even when these approaches are less invasive than traditional tissue biopsy, they can still be slow, costly, and limited in their ability to capture rare biomarkers at the earliest stages of disease.
 
-## Objectives
+BeNiFIt addresses this challenge by exploring a new way to detect disease biomarkers directly inside the body. The project focuses on intra-body nanoscale communication systems, in which extremely small devices, called nanomachines, move through the bloodstream, sense target biomarkers, and pass information to an on-body gateway that can connect to external medical systems. This approach aims to support a future generation of diagnostic and monitoring tools that are minimally invasive, faster, and more suitable for continuous or repeated use.
 
-### O1. Demonstrate the competence of IBNC for in vivo detection of biomarkers with high accuracy
+Cancer provides the main case study for the project because early-stage cancer detection is especially difficult when biomarker levels are low, unstable, and unevenly distributed in blood. At the same time, the broader vision of BeNiFIt extends beyond cancer. The same scientific and engineering principles could support earlier detection and monitoring for other chronic diseases in which timely identification of molecular signs is important for treatment decisions and patient care.
 
-The sensing side of the project studies how biomarkers and nanomachines move in blood, how background molecules affect specificity and sensitivity, and how cooperative sensing can reduce false positives and false negatives.
+The overall objective of BeNiFIt is to show that intra-body nanoscale communications can make in vivo biomarker detection feasible and useful for medical diagnostics. To achieve this, the project pursues three connected goals. First, it investigates how nanomachines equipped with biosensing capabilities can detect biomarkers accurately inside the bloodstream, including under low-concentration conditions. Second, it develops a communication architecture that allows these very small devices to share or relay information while respecting strict constraints on size, energy use, and safety in the human body. Third, it builds a multi-scale simulation framework that can model the full system and support the design, evaluation, and optimization of future in-body diagnostic platforms.
 
-**Target indicators**
-
-- Turnaround improvement of 1000X
-- Detection accuracy above 95%
-
-### O2. Design a communication architecture that meets hardware, energy, and safety requirements
-
-The communication side of the project studies a sensing-enabled magnetic architecture for nanomachines and on-body gateways. The aim is to keep the hardware footprint tiny while using passive or near-zero-energy signalling and staying safely within human-body exposure limits.
-
-**Target indicators**
-
-- Nanomachine dimension below 2 μm
-- Transmit energy close to 0 J through passive communication
-- Specific absorption rate far below 2 W/kg
-
-### O3. Develop a multi-scale system-level simulator to optimize design and evaluate performance
-
-The simulator joins biomarker evolution, bloodstream dynamics, detection probability, cooperative protocols, antenna models, and gateway interaction into one framework. It is intended to support co-design, design-space exploration, and faster iteration.
-
-**Target indicators**
-
-- Iterative optimization
-- Rapid testing across sensing and communication choices
-
-## Work packages
-
-### WP1. Management activities
-
-Project management, supervision, and teaching support.
-
-### WP2. In Vivo Sensing
-
-This work package studies biomarker and nanomachine motion in the bloodstream, detection probability, background interference, and cooperative sensing for improved reliability.
-
-### WP3. In- to On-Body Communication
-
-This work package studies a magnetic communication architecture between nanomachines and gateways, with emphasis on passive signalling, sensing-enabled communication, safety, and miniature antenna design.
-
-### WP4. Implementation
-
-This work package develops the multi-scale simulator that combines the sensing and communication modules into one environment for co-design and design-space exploration.
-
-### WP5. Training and Career Development
-
-This work package supports skills growth across biosensors, nanoantennas, simulation tools, teaching, supervision, and entrepreneurship.
-
-### WP6. Communication and Dissemination
-
-This work package covers publications, conferences, webinars, the public website, outreach activities, and broader dissemination to researchers, students, stakeholders, and the public.
-
-## Partners
-
-### Host institution
-
-**Universitat Politècnica de Catalunya, UPC BarcelonaTech**
-
-BeNiFIt is anchored at UPC through the **NaNoNetworking Center in Catalonia, N3Cat**, with the project building on expertise in nanoscale communication, systems modelling, protocol design, and design-space exploration.
-
-### Secondment and collaboration partners
-
-**Institute for Bioengineering of Catalonia, IBEC**
-
-The IBEC collaboration supports the biosensing side of the project, including functionalization insight and the practical constraints that shape specificity and sensitivity.
-
-**Norwegian University of Science and Technology, NTNU**
-
-The NTNU collaboration supports the passive wireless communication side of the project, including magnetic coupling, implant-oriented wireless systems, and gateway design considerations.
-
-## Expected outputs
-
-BeNiFIt is structured to produce publications, conference papers, webinars, a public-facing project website, and an open-source simulator with generated data for broader research use.
-
-For current outputs and updates, visit the [Research Outputs](/research-outputs) and [News & Media](/news) sections.
+Through this pathway, BeNiFIt aims to lay the scientific and technological foundation for faster and less burdensome biomarker-based diagnostics. In the longer term, this could help move healthcare toward earlier intervention, more timely clinical decisions, and more accessible monitoring methods for diseases where speed and sensitivity matter most.
