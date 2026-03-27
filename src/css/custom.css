@@ -50,6 +50,12 @@ body {
   }
 }
 
+.blog-wrapper h1,
+article header h1 {
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
 .markdown img {
   border-radius: 1rem;
 }
