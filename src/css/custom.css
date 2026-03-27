@@ -41,34 +41,46 @@ body {
   border-radius: 1rem;
 }
 
-/* Opened News & Media article title */
-.theme-blog-post-page h1,
-.blog-wrapper article header h1 {
+/* News & Media list page main post titles */
+.theme-blog-list-page article h2,
+.theme-blog-list-page article h2 a {
   font-size: 1.8rem !important;
-  line-height: 1.2;
+  line-height: 1.2 !important;
 }
 
 /* Sidebar clickable post titles */
 .blog-wrapper aside a {
   font-size: 0.9rem !important;
-  line-height: 1.35;
+  line-height: 1.35 !important;
 }
 
-/* Sidebar year headings */
-.blog-wrapper aside h3,
-.blog-wrapper aside h2 {
+/* Sidebar year and section headings */
+.blog-wrapper aside h2,
+.blog-wrapper aside h3 {
   font-size: 1.2rem !important;
-  line-height: 1.2;
+  line-height: 1.2 !important;
+}
+
+/* Individual post page title, when opened directly */
+.theme-blog-post-page article h1,
+.theme-blog-post-page h1 {
+  font-size: 2rem !important;
+  line-height: 1.2 !important;
 }
 
 @media (max-width: 768px) {
-  .theme-blog-post-page h1,
-  .blog-wrapper article header h1 {
-    font-size: 1.5rem !important;
-    line-height: 1.25;
+  .theme-blog-list-page article h2,
+  .theme-blog-list-page article h2 a {
+    font-size: 1.45rem !important;
+    line-height: 1.25 !important;
   }
 
   .blog-wrapper aside a {
     font-size: 0.88rem !important;
+  }
+
+  .theme-blog-post-page article h1,
+  .theme-blog-post-page h1 {
+    font-size: 1.6rem !important;
   }
 }
