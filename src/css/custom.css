@@ -44,13 +44,26 @@ body {
 /* News list page title sizing */
 main article header > h2[class^="title_"],
 main article header > h2[class^="title_"] > a {
-  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-size: clamp(1.8rem, 3vw, 1.8rem);
   line-height: 1.1;
+}
+
+/* Individual news post title sizing */
+main article header > h1,
+main article header > h1 > a {
+  font-size: clamp(2rem, 3vw, 1.5rem);
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
 }
 
 @media (max-width: 768px) {
   main article header > h2[class^="title_"],
   main article header > h2[class^="title_"] > a {
     font-size: clamp(1.4rem, 5vw, 2rem);
+  }
+
+  main article header > h1,
+  main article header > h1 > a {
+    font-size: clamp(1.6rem, 6vw, 2.2rem);
   }
 }
