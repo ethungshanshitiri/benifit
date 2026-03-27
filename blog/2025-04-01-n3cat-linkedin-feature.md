@@ -1,6 +1,6 @@
 ---
 slug: n3cat-linkedin-feature
-title: N3Cat highlighted the BeNiFIt secondment and collaboration on LinkedIn
+title: Visiting Scholar at The Intervention Center, Oslo University Hospital
 authors: [ethungshan]
 tags: [social-media, media, benifit, secondment, collaboration]
 date: 2025-04-01
