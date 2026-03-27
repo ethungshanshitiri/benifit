@@ -88,9 +88,8 @@ const config = {
           {
             title: 'Partners',
             items: [
-              {label: 'IBEC', href: 'https://ibecbarcelona.eu/'},
               {label: 'NTNU', href: 'https://www.ntnu.edu/'},
-              {label: 'WBRG', href: 'https://www.balasingham.com/'}
+              {label: 'WBRG', href: 'https://ous-research.no/balasingham/'}
             ]
           }
         ],
