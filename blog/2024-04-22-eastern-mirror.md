@@ -1,5 +1,5 @@
 ---
-slug: eastern-mirror-feature
+slug: eastern-mirror
 title: Eastern Mirror features the BeNiFIt project
 authors: [ethungshan]
 tags: [media, press, benifit]
