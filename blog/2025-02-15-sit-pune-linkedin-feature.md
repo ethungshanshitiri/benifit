@@ -1,0 +1,13 @@
+---
+slug: sit-pune-linkedin-feature
+title: SIT Pune shared the BeNiFIt lecture on LinkedIn
+authors: [ethungshan]
+tags: [social-media, media, benifit, lecture]
+date: 2025-02-15
+---
+
+**Dr. Ethungshan Shitiri** gave a talk on **"Intrabody NanoNetworks Enabling Early Detection of Chronic Diseases"** at Symbiosis Institute of Technology Pune, as part of the international expert lecture series.
+
+View the post here:
+
+- [SIT Pune LinkedIn post](https://www.linkedin.com/posts/sitpune-etc_electronics-nanonetworks-sitpune-activity-7299743388155678720-GeCa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAmfdlkB-kCZuGv4HCc2_Gk7rR8uyyEIiCE)
