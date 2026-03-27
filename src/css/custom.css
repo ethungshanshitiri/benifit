@@ -37,25 +37,38 @@ body {
   width: 100%;
 }
 
-/* News and Media post title size */
-.theme-blog-post-page h2 {
-  font-size: 2rem;
+.markdown img {
+  border-radius: 1rem;
+}
+
+/* Opened News & Media article title */
+.theme-blog-post-page h1,
+.blog-wrapper article header h1 {
+  font-size: 1.8rem !important;
+  line-height: 1.2;
+}
+
+/* Sidebar clickable post titles */
+.blog-wrapper aside a {
+  font-size: 0.9rem !important;
+  line-height: 1.35;
+}
+
+/* Sidebar year headings */
+.blog-wrapper aside h3,
+.blog-wrapper aside h2 {
+  font-size: 1.2rem !important;
   line-height: 1.2;
 }
 
 @media (max-width: 768px) {
-  .theme-blog-post-page h2 {
-    font-size: 1.8rem;
+  .theme-blog-post-page h1,
+  .blog-wrapper article header h1 {
+    font-size: 1.5rem !important;
     line-height: 1.25;
   }
-}
 
-.blog-wrapper h1,
-article header h1 {
-  font-size: 2rem;
-  line-height: 1.15;
-}
-
-.markdown img {
-  border-radius: 1rem;
+  .blog-wrapper aside a {
+    font-size: 0.88rem !important;
+  }
 }
