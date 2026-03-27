@@ -51,7 +51,7 @@ main article header > h2[class^="title_"] > a {
 /* Individual news post title sizing */
 main article header > h1,
 main article header > h1 > a {
-  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-size: clamp(1rem, 3vw, 1rem);
   line-height: 1.1;
   margin-bottom: 0.75rem;
 }
