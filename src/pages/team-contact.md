@@ -3,8 +3,6 @@ title: Team and Contact
 slug: /team-contact
 ---
 
-# Team and Contact
-
 ## Project lead
 
 **Ethungshan Shitiri**  
