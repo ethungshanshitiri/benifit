@@ -1,5 +1,5 @@
 ---
-slug: nagaland-post-x-share
+slug: nagaland-post-x
 title: Nagaland Post shared the BeNiFIt news on X
 authors: [ethungshan]
 tags: [social-media, media, benifit]
