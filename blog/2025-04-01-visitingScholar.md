@@ -1,12 +1,12 @@
 ---
-slug: n3cat-linkedin-feature
+slug: visitingScholar
 title: Visiting Scholar at The Intervention Center, Oslo University Hospital
 authors: [ethungshan]
 tags: [social-media, media, benifit, secondment, collaboration]
 date: 2025-04-01
 ---
 
-**Dr. Ethungshan Shitiri** carreid out his academic secondment at the **Intervention Center, Oslo University Hospital**, where he collaborated with **Prof. Ilangko Balasingham** and his team on a magnetic-field-based communication method for intrabody nanonetworks.
+**Ethungshan Shitiri** carried out his academic secondment at the **Intervention Center, Oslo University Hospital**, where he collaborated with **Prof. Ilangko Balasingham** and his team on a magnetic-field-based communication method for intrabody nanonetworks.
 
 The collaboration focused on enabling communication between internal in vivo nanodevices and external wearable systems while reducing RF attenuation and meeting safety requirements.
 View the post here:
