@@ -44,7 +44,7 @@ body {
 /* News list page title sizing */
 main article header > h2[class^="title_"],
 main article header > h2[class^="title_"] > a {
-  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  font-size: clamp(1.6rem, 3vw, 2rem);
   line-height: 1.1;
 }
 
