@@ -1,6 +1,6 @@
 ---
 slug: visitingScholar
-title: Visiting Scholar at The Intervention Center, Oslo University Hospital
+title: Visiting Scholar at Oslo University Hospital
 authors: [ethungshan]
 tags: [social-media, media, benifit, secondment, collaboration]
 date: 2025-04-01
