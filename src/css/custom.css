@@ -41,4 +41,20 @@ body {
   border-radius: 1rem;
 }
 
+/* News article title sizing */
+main article header h1 {
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
 
+main article header h1 a {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media (max-width: 768px) {
+  main article header h1 {
+    font-size: clamp(1.6rem, 7vw, 2.3rem);
+  }
+}
