@@ -41,61 +41,7 @@ body {
   border-radius: 1rem;
 }
 
-/* News & Media list page only */
-.theme-blog-list-page h2 {
-  font-size: 1.55rem !important;
-  line-height: 1.2 !important;
-  margin-bottom: 0.5rem !important;
-}
 
-.theme-blog-list-page h2 a {
-  font-size: inherit !important;
-  line-height: inherit !important;
-}
-
-/* Sidebar links under Recent posts */
-.theme-blog-list-page aside a {
-  font-size: 0.88rem !important;
-  line-height: 1.35 !important;
-}
-
-/* Sidebar headings like 2025 and 2024 */
-.theme-blog-list-page aside h2,
-.theme-blog-list-page aside h3 {
-  font-size: 1.15rem !important;
-  line-height: 1.2 !important;
-}
-
-/* Individual post page title */
-.theme-blog-post-page h1 {
-  font-size: 2rem !important;
-  line-height: 1.2 !important;
-}
-
-@media (max-width: 768px) {
-  .theme-blog-list-page h2 {
-    font-size: 1.3rem !important;
-  }
-
-  .theme-blog-list-page aside a {
-    font-size: 0.84rem !important;
-  }
-
-html body .theme-blog-list-page main article h2,
-html body .theme-blog-list-page main article h2 a {
-  font-size: 1.35rem !important;
-  line-height: 1.2 !important;
-}
-
-html body .theme-blog-list-page aside a {
-  font-size: 0.82rem !important;
-  line-height: 1.3 !important;
-}
-
-  .theme-blog-post-page h1 {
-    font-size: 1.6rem !important;
-  }
-}
 
 .theme-blog-list-page h2 a {
   color: red !important;
