@@ -38,13 +38,13 @@ body {
 }
 
 /* News and Media post title size */
-.theme-blog-post-page h1 {
+.theme-blog-post-page h2 {
   font-size: 2rem;
   line-height: 1.2;
 }
 
 @media (max-width: 768px) {
-  .theme-blog-post-page h1 {
+  .theme-blog-post-page h2 {
     font-size: 1.8rem;
     line-height: 1.25;
   }
