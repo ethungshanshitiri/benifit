@@ -1,5 +1,5 @@
 ---
-slug: morung-express-feature
+slug: morung-express
 title: Morung Express reports on the BeNiFIt grant award
 authors: [ethungshan]
 tags: [media, press, benifit]
