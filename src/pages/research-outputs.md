@@ -20,4 +20,4 @@ hide_table_of_contents: true
 
 ## Tools
 
-- [Intra body simulator repository (Comming soon...)](https://github.com/ethungshanshitiri/intrabodySimulator)
+- [Intra body simulator repository (Coming soon...)](https://github.com/ethungshanshitiri/intrabodySimulator)
