@@ -64,37 +64,10 @@ const config = {
           {to: '/research-outputs', label: 'Research Outputs', position: 'left'},
           {to: '/news', label: 'News & Media', position: 'left'},
           {to: '/team-contact', label: 'Team & Contact', position: 'left'},
-          {href: 'https://github.com/ethungshanshitiri/benifit', label: 'GitHub', position: 'right'}
         ]
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Navigate',
-            items: [
-              {label: 'Home', to: '/'},
-              {label: 'Overview', to: '/overview'},
-              {label: 'Research Outputs', to: '/research-outputs'},
-              {label: 'News & Media', to: '/news'},
-              {label: 'Team & Contact', to: '/team-contact'},
-            ]
-          },
-          {
-            title: 'Links',
-            items: [
-              {label: 'GitHub profile', href: 'https://github.com/ethungshanshitiri'},
-              {label: 'UPC', href: 'https://www.upc.edu/en'},
-              {label: 'N3Cat', href: 'https://n3cat.upc.edu/'}
-            ]
-          },
-          {
-            title: 'Partner',
-            items: [
-              {label: 'WBRG at NTNU', href: 'https://ous-research.no/home/balasingham/Group-members/8089'}
-            ]
-          }
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} BeNiFIt. MSCA fellowship website built with Docusaurus and deployed on GitHub Pages.`
       },
       prism: {
