@@ -1,6 +1,7 @@
 ---
 title: Team and Contact
 slug: /team-contact
+hide_table_of_contents: true
 ---
 
 <p className="lead">

@@ -1,19 +1,8 @@
 ---
-title: Project
-slug: /project
+title: Overview
+slug: /overview
+hide_table_of_contents: true
 ---
-
-<p className="lead">
-BeNiFIt is the Horizon Europe MSCA Postdoctoral Fellowship 101154851, titled Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In Body Diagnostics and Monitoring Systems.
-</p>
-
-The project explored whether intrabody nanoscale communication can make in vivo biomarker detection more feasible. Its long term vision is faster, less invasive, and more continuous biomarker monitoring. The fellowship work focused on modelling, simulation, communication design, and reusable research methods.
-
-## Why the project matters
-
-Early detection is important for improving outcomes in chronic diseases. Current biomarker analysis still depends heavily on collecting limited samples, processing them outside the body, and waiting for results. This can miss rare early signals when disease related biomarkers are present at very low concentrations.
-
-BeNiFIt asks whether the sensing event can move closer to where biomarkers circulate. In the project vision, nanomachines move through blood vessels, detect target biomarkers, and communicate information toward an external or on body system. This remains a research vision rather than a deployed system.
 
 ## Scientific objectives
 

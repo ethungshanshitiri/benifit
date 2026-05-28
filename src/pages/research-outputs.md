@@ -1,6 +1,7 @@
 ---
 title: Research Outputs
 slug: /research-outputs
+hide_table_of_contents: true
 ---
 
 <p className="lead">

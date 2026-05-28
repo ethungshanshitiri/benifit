@@ -6,18 +6,17 @@ export default function Home() {
   return (
     <Layout
       title="Home"
-      description="BeNiFIt is a Horizon Europe MSCA Postdoctoral Fellowship on intrabody nanoscale communication for in vivo biomarker sensing.">
+      description="BeNiFIt explores intrabody nanoscale communication for in vivo biomarker sensing.">
       <main className={styles.home}>
         <div className="container">
           <section className={styles.hero}>
             <div className={styles.heroText}>
-              <p className={styles.eyebrow}>Horizon Europe MSCA Postdoctoral Fellowship</p>
               <h1 className={styles.title}>BeNiFIt</h1>
-              <p className={styles.subtitle}>
-                Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In Body Diagnostics and Monitoring Systems.
+              <p className={styles.summary}>
+                Early detection is important for improving outcomes in chronic diseases. Current biomarker analysis still depends heavily on collecting limited samples, processing them outside the body, and waiting for results. This can miss rare early signals when disease related biomarkers are present at very low concentrations.
               </p>
               <p className={styles.summary}>
-                Led by Dr Ethungshan Shitiri at UPC BarcelonaTech, BeNiFIt studies intrabody nanoscale communication, vascular biomarker sensing, and simulation methods for future in vivo monitoring research.
+                BeNiFIt explores whether intrabody nanoscale communication can make in vivo biomarker detection more feasible. Its long term vision is faster, less invasive, and more continuous biomarker monitoring. The fellowship work focused on modelling, simulation, communication design, and reusable research methods.
               </p>
               <img
                 className={styles.euLogo}

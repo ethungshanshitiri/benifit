@@ -33,7 +33,8 @@ const config = {
         docs: false,
         blog: {
           showReadingTime: false,
-          routeBasePath: 'news'
+          routeBasePath: 'news',
+          blogSidebarCount: 0
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -59,7 +60,7 @@ const config = {
         },
         items: [
           {to: '/', label: 'Home', position: 'left'},
-          {to: '/project', label: 'Project', position: 'left'},
+          {to: '/overview', label: 'Overview', position: 'left'},
           {to: '/research-outputs', label: 'Research Outputs', position: 'left'},
           {to: '/news', label: 'News & Media', position: 'left'},
           {to: '/team-contact', label: 'Team & Contact', position: 'left'},
@@ -73,7 +74,7 @@ const config = {
             title: 'Navigate',
             items: [
               {label: 'Home', to: '/'},
-              {label: 'Project', to: '/project'},
+              {label: 'Overview', to: '/overview'},
               {label: 'Research Outputs', to: '/research-outputs'},
               {label: 'News & Media', to: '/news'},
               {label: 'Team & Contact', to: '/team-contact'},
