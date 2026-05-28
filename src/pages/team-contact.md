@@ -4,32 +4,29 @@ slug: /team-contact
 hide_table_of_contents: true
 ---
 
-<p className="lead">
-BeNiFIt was led by Dr Ethungshan Shitiri as an MSCA Postdoctoral Fellow at N3Cat at UPC, with scientific support from the secondment host WBRG at NTNU.
-</p>
 
 ## Core team
 
 <div className="people-grid">
   <article className="person-card">
     <p className="output-meta">MSCA fellow</p>
-    <h3>Dr Ethungshan Shitiri</h3>
+    <h3>Dr. Ethungshan Shitiri</h3>
     <p>Senior researcher at N3Cat at UPC. Project lead for BeNiFIt and main contact for project outputs, website updates, and collaboration enquiries.</p>
     <a href="mailto:ethungshan.shitiri@upc.edu">Email Ethungshan Shitiri</a>
   </article>
   <article className="person-card">
     <p className="output-meta">Supervisor</p>
-    <h3>Prof Eduard Alarcon</h3>
+    <h3>Prof. Eduard Alarcon</h3>
     <p>N3Cat at UPC. Scientific supervision and host support for nanoscale communication, wireless systems, and project development.</p>
   </article>
   <article className="person-card">
     <p className="output-meta">Host team</p>
-    <h3>Associate Professor Sergi Abadal</h3>
+    <h3>Asso. Prof. Sergi Abadal</h3>
     <p>N3Cat at UPC. Scientific collaboration on design space exploration, protocol design, and nanoscale communication systems.</p>
   </article>
   <article className="person-card">
     <p className="output-meta">Secondment host supervisor</p>
-    <h3>Prof Ilangko Balasingham</h3>
+    <h3>Prof. Ilangko Balasingham</h3>
     <p>WBRG at NTNU. Scientific support for passive wireless systems, biomedical communication, and secondment activity.</p>
   </article>
 </div>
