@@ -5,7 +5,7 @@ hide_table_of_contents: true
 ---
 
 
-## Publications and manuscripts
+## Publications
 
 - **Early Stage Cancer Biomarker Detection via Intravascular Nanomachines**  
   Preprint and journal manuscript on modelling intravascular nanomachines for early stage cancer biomarker detection. [Read the arXiv preprint](https://arxiv.org/abs/2603.10709).
