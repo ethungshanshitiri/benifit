@@ -11,8 +11,7 @@ hide_table_of_contents: true
   <article className="person-card">
     <p className="output-meta">MSCA fellow</p>
     <h3>Dr. Ethungshan Shitiri</h3>
-    <p>Senior researcher at N3Cat at UPC. Project lead for BeNiFIt and main contact for project outputs, website updates, and collaboration enquiries.</p>
-    <a href="mailto:ethungshan.shitiri@upc.edu">Email Ethungshan Shitiri</a>
+    <p>Senior researcher at N3Cat at UPC. Project lead for BeNiFIt and main contact for project outputs, website updates, and collaboration enquiries.</p>    
   </article>
   <article className="person-card">
     <p className="output-meta">Supervisor</p>
