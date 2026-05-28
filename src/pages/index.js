@@ -11,7 +11,6 @@ export default function Home() {
         <div className="container">
           <section className={styles.hero}>
             <div className={styles.heroText}>
-              <h1 className={styles.title}>BeNiFIt</h1>
               <p className={styles.summary}>
                 Early detection is important for improving outcomes in chronic diseases. Current biomarker analysis still depends heavily on collecting limited samples, processing them outside the body, and waiting for results. This can miss rare early signals when disease related biomarkers are present at very low concentrations.
               </p>
