@@ -4,9 +4,6 @@ slug: /research-outputs
 hide_table_of_contents: true
 ---
 
-<p className="lead">
-This page records direct BeNiFIt outputs and closely related project enabled outputs from the fellowship period and its continuation plan.
-</p>
 
 ## Publications and manuscripts
 
