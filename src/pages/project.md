@@ -3,10 +3,6 @@ title: Project
 slug: /project
 ---
 
-<p className="page-kicker">MSCA project record</p>
-
-# Project
-
 <p className="lead">
 BeNiFIt is the Horizon Europe MSCA Postdoctoral Fellowship 101154851, titled Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In Body Diagnostics and Monitoring Systems.
 </p>
@@ -38,8 +34,6 @@ Develop a system level simulator that spans microscopic and macroscopic scales. 
 | Item | Record |
 | --- | --- |
 | Programme | Horizon Europe MSCA Postdoctoral Fellowships 2023 |
-| Action | European Fellowship |
-| Project identifier | 101154851 |
 | Host institution | Universitat Politecnica de Catalunya |
 | Host group | NaNoNetworking Center in Catalonia |
 | Fellow | Dr Ethungshan Shitiri |

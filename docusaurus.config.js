@@ -94,7 +94,7 @@ const config = {
             title: 'Partners',
             items: [
               {label: 'NTNU', href: 'https://www.ntnu.edu/'},
-              {label: 'WBRG at NTNU', href: 'https://www.ntnu.edu/employees/ilangko.balasingham'}
+              {label: 'WBRG at NTNU', href: 'https://ous-research.no/home/balasingham/Group-members/8089'}
             ]
           }
         ],
