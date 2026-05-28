@@ -18,12 +18,6 @@ hide_table_of_contents: true
 - **Liquid Biopsy Using Intra Body Nanonetworks**  
   Workshop on Molecular Communications 2024 paper connecting liquid biopsy and intrabody nanoscale communication.
 
-## Software and simulation
+## Tools
 
-BeNiFIt prepared a staged open science path for reusable simulation material. The simulator work connects adapted AcCoRD based blood vessel models, COMSOL based magnetic link simulations from the WBRG at NTNU secondment, MATLAB based design workflows, and example cases for future release.
-
-- [Intra body simulator repository](https://github.com/ethungshanshitiri/intrabodySimulator)
-
-## Current status
-
-The project has produced vascular biomarker detection models, exploratory magnetic backscatter studies, and a public repository for staged simulator release. Website updates are planned through March 2030.
+- [Intra body simulator repository (Comming soon...)](https://github.com/ethungshanshitiri/intrabodySimulator)
