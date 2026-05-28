@@ -78,23 +78,19 @@ const config = {
               {label: 'Research Outputs', to: '/research-outputs'},
               {label: 'News & Media', to: '/news'},
               {label: 'Team & Contact', to: '/team-contact'},
-              {label: 'Outreach', to: '/outreach'}
             ]
           },
           {
-            title: 'Open Science',
+            title: 'Links',
             items: [
               {label: 'GitHub profile', href: 'https://github.com/ethungshanshitiri'},
-              {label: 'Project repository', href: 'https://github.com/ethungshanshitiri/benifit'},
-              {label: 'Simulator repository', href: 'https://github.com/ethungshanshitiri/intrabodySimulator'},
               {label: 'UPC', href: 'https://www.upc.edu/en'},
               {label: 'N3Cat', href: 'https://n3cat.upc.edu/'}
             ]
           },
           {
-            title: 'Partners',
+            title: 'Partner',
             items: [
-              {label: 'NTNU', href: 'https://www.ntnu.edu/'},
               {label: 'WBRG at NTNU', href: 'https://ous-research.no/home/balasingham/Group-members/8089'}
             ]
           }
