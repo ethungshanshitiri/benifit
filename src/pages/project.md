@@ -3,7 +3,7 @@ title: Project
 slug: /project
 ---
 
-<p className="page-kicker">Original MSCA fellowship view</p>
+<p className="page-kicker">MSCA project record</p>
 
 # Project
 
@@ -11,13 +11,13 @@ slug: /project
 BeNiFIt is the Horizon Europe MSCA Postdoctoral Fellowship 101154851, titled Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In Body Diagnostics and Monitoring Systems.
 </p>
 
-The fellowship was proposed to explore whether intrabody nanoscale communication can make in vivo biomarker detection feasible. The long term vision is faster, less invasive, and more continuous biomarker monitoring. The fellowship itself focused on modelling, simulation, communication design, and reusable research methods.
+The project explored whether intrabody nanoscale communication can make in vivo biomarker detection more feasible. Its long term vision is faster, less invasive, and more continuous biomarker monitoring. The fellowship work focused on modelling, simulation, communication design, and reusable research methods.
 
 ## Why the project matters
 
-Early detection is important for improving outcomes in chronic diseases. Current biomarker analysis still depends heavily on collecting limited samples, processing them outside the body, and waiting for results. This can miss rare early signals, especially when disease related biomarkers are present at very low concentrations.
+Early detection is important for improving outcomes in chronic diseases. Current biomarker analysis still depends heavily on collecting limited samples, processing them outside the body, and waiting for results. This can miss rare early signals when disease related biomarkers are present at very low concentrations.
 
-BeNiFIt asks whether the sensing event can move closer to where biomarkers circulate. In the proposed vision, nanomachines move through blood vessels, detect target biomarkers, and communicate information toward an external or on body system. This remains a research vision rather than a deployed system.
+BeNiFIt asks whether the sensing event can move closer to where biomarkers circulate. In the project vision, nanomachines move through blood vessels, detect target biomarkers, and communicate information toward an external or on body system. This remains a research vision rather than a deployed system.
 
 ## Scientific objectives
 
@@ -39,7 +39,7 @@ Develop a system level simulator that spans microscopic and macroscopic scales. 
 | --- | --- |
 | Programme | Horizon Europe MSCA Postdoctoral Fellowships 2023 |
 | Action | European Fellowship |
-| Grant agreement | 101154851 |
+| Project identifier | 101154851 |
 | Host institution | Universitat Politecnica de Catalunya |
 | Host group | NaNoNetworking Center in Catalonia |
 | Fellow | Dr Ethungshan Shitiri |

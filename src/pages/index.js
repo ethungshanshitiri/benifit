@@ -5,47 +5,29 @@ import styles from './styles.module.css';
 
 const facts = [
   {value: 'MSCA PF', label: 'Horizon Europe fellowship'},
-  {value: '101154851', label: 'Grant agreement'},
-  {value: '2024 to 2026', label: 'Fellowship period'},
-  {value: '2030', label: 'Public record maintained through March 2030'}
+  {value: 'April 2024 to March 2026', label: 'Project period'},
+  {value: 'UPC BarcelonaTech', label: 'Host institution'},
+  {value: 'March 2030', label: 'Maintained updates'}
 ];
 
-const objectives = [
+const focusAreas = [
   {
     marker: 'O1',
-    title: 'In vivo biomarker sensing',
+    title: 'Biomarker sensing',
     body:
-      'Model biomarker detection by nanomachines moving in blood vessels, with early stage cancer and circulating tumour DNA as the main case study.'
+      'Models for nanomachines moving through vascular environments and detecting low concentration biomarkers.'
   },
   {
     marker: 'O2',
-    title: 'In body to on body communication',
+    title: 'Passive communication',
     body:
-      'Study magnetic backscatter and passive communication routes that respect severe size, energy, and safety limits inside the body.'
+      'Study of in body to on body communication routes under size, energy, and safety constraints.'
   },
   {
     marker: 'O3',
-    title: 'System level simulation',
+    title: 'Simulation methods',
     body:
-      'Connect sensing models, communication models, and design space exploration into reusable simulation methods for future intrabody diagnostics research.'
-  }
-];
-
-const outcomes = [
-  {
-    title: 'Vascular detection models',
-    body:
-      'Adapted simulation workflows explored capillary and microvascular biomarker detection, vessel geometry, flow effects, and cooperative nanomachine sensing.'
-  },
-  {
-    title: 'Magnetic backscatter studies',
-    body:
-      'The NTNU and Oslo University Hospital secondment supported COMSOL training and weak signal modelling for 13.56 MHz magnetic backscatter links.'
-  },
-  {
-    title: 'Open science path',
-    body:
-      'A public simulator repository was opened for gradual release of code, documentation, and example cases once the material is stable for reuse.'
+      'Reusable simulation workflows connecting sensing, communication, and design space exploration.'
   }
 ];
 
@@ -58,20 +40,26 @@ export default function Home() {
         <div className="container">
           <div className={styles.heroContent}>
             <p className={styles.eyebrow}>Horizon Europe MSCA Postdoctoral Fellowship</p>
-            <h1 className={styles.title}>
-              BeNiFIt explores intrabody nanoscale communication for faster in vivo biomarker sensing
-            </h1>
+            <h1 className={styles.title}>BeNiFIt</h1>
             <p className={styles.subtitle}>
-              Led by Dr Ethungshan Shitiri at UPC, BeNiFIt investigated whether nanomachines, passive magnetic communication, and multi scale simulation can support the scientific basis for less invasive and more continuous biomarker monitoring.
+              Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In Body Diagnostics and Monitoring Systems.
+            </p>
+            <p className={styles.summary}>
+              Led by Dr Ethungshan Shitiri at UPC BarcelonaTech, the project studied nanomachines, passive magnetic communication, and multi scale simulation for future in vivo biomarker sensing research.
             </p>
             <div className={styles.actions}>
-              <Link className="button button--primary button--lg" to="/project">
-                Read the project record
+              <Link className="button button--primary" to="/project">
+                Project
               </Link>
-              <Link className="button button--secondary button--lg" to="/research-outputs">
-                See research outputs
+              <Link className="button button--secondary" to="/research-outputs">
+                Research outputs
               </Link>
             </div>
+            <img
+              className={styles.euLogo}
+              src="img/funded-by-eu.png"
+              alt="Funded by the European Union"
+            />
           </div>
         </div>
       </header>
@@ -94,11 +82,15 @@ export default function Home() {
           <div className="container">
             <div className={styles.splitSection}>
               <div className={styles.sectionIntro}>
-                <p className={styles.kicker}>Original fellowship view</p>
-                <h2>A research project at the boundary of nanonetworks and diagnostics</h2>
+                <p className={styles.kicker}>Project overview</p>
+                <h2>Nanonetworks for in vivo biomarker sensing</h2>
                 <p>
-                  The proposal asked whether intrabody nanoscale communication can make in vivo biomarker detection feasible. Its long term vision is earlier detection and more continuous monitoring, while the fellowship itself focused on modelling, simulation, communication design, open science, and training.
+                  BeNiFIt explored whether the sensing event can move closer to where biomarkers circulate. The work remained at modelling, simulation, and design analysis maturity, with contributions in vascular detection models, passive communication studies, and reusable simulation methods.
                 </p>
+                <div className={styles.textLinks}>
+                  <Link to="/news">News</Link>
+                  <Link to="/team-contact">Team and contact</Link>
+                </div>
               </div>
               <figure className={styles.figureWrap}>
                 <img
@@ -115,38 +107,15 @@ export default function Home() {
         <section className={`${styles.section} ${styles.altSection}`}>
           <div className="container">
             <div className={styles.sectionIntro}>
-              <p className={styles.kicker}>Scientific objectives</p>
+              <p className={styles.kicker}>Project focus</p>
               <h2>Three connected work streams</h2>
-              <p>
-                The fellowship was structured around sensing, communication, and simulation. These streams remain the best way to read the project record and its outputs.
-              </p>
             </div>
             <div className={styles.cardGrid}>
-              {objectives.map((objective) => (
-                <article key={objective.marker} className={styles.card}>
-                  <span className={styles.cardMarker}>{objective.marker}</span>
-                  <h3>{objective.title}</h3>
-                  <p>{objective.body}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className={styles.section}>
-          <div className="container">
-            <div className={styles.sectionIntro}>
-              <p className={styles.kicker}>Activities and outcomes</p>
-              <h2>What the fellowship produced</h2>
-              <p>
-                BeNiFIt remained at modelling, simulation, and design analysis maturity. Its value is in methods, publications, training, secondment activity, and reusable foundations for follow on research.
-              </p>
-            </div>
-            <div className={styles.outcomeGrid}>
-              {outcomes.map((outcome) => (
-                <article key={outcome.title} className={styles.outcomeItem}>
-                  <h3>{outcome.title}</h3>
-                  <p>{outcome.body}</p>
+              {focusAreas.map((area) => (
+                <article key={area.marker} className={styles.card}>
+                  <span className={styles.cardMarker}>{area.marker}</span>
+                  <h3>{area.title}</h3>
+                  <p>{area.body}</p>
                 </article>
               ))}
             </div>
@@ -157,10 +126,10 @@ export default function Home() {
           <div className="container">
             <div className={styles.ctaBox}>
               <div>
-                <p className={styles.kicker}>Public record</p>
-                <h2>Follow the outputs, updates, and team behind BeNiFIt</h2>
+                <p className={styles.kicker}>Outputs and updates</p>
+                <h2>Follow publications, software, activities, and team information</h2>
                 <p>
-                  The website gathers publications, news, secondment activity, partner context, and links to public code as the project record is maintained after the fellowship.
+                  The site is maintained for project outputs and follow on updates.
                 </p>
               </div>
               <div className={styles.ctaLinks}>

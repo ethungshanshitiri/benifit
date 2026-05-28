@@ -94,12 +94,11 @@ const config = {
             title: 'Partners',
             items: [
               {label: 'NTNU', href: 'https://www.ntnu.edu/'},
-              {label: 'IBEC', href: 'https://ibecbarcelona.eu/'},
-              {label: 'WBRG', href: 'https://ous-research.no/balasingham/'}
+              {label: 'WBRG at NTNU', href: 'https://www.ntnu.edu/employees/ilangko.balasingham'}
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BeNiFIt. MSCA fellowship public record built with Docusaurus and deployed on GitHub Pages.`
+        copyright: `Copyright © ${new Date().getFullYear()} BeNiFIt. MSCA fellowship website built with Docusaurus and deployed on GitHub Pages.`
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,

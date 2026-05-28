@@ -3,12 +3,12 @@ title: Team and Contact
 slug: /team-contact
 ---
 
-<p className="page-kicker">Fellowship team and host environment</p>
+<p className="page-kicker">Team and host environment</p>
 
 # Team and Contact
 
 <p className="lead">
-BeNiFIt was led by Dr Ethungshan Shitiri as an MSCA Postdoctoral Fellow at UPC, with supervision and scientific support from the N3Cat research environment and secondment collaborators.
+BeNiFIt was led by Dr Ethungshan Shitiri as an MSCA Postdoctoral Fellow at UPC, with scientific support from N3Cat and the secondment host WBRG at NTNU.
 </p>
 
 ## Core team
@@ -27,17 +27,17 @@ BeNiFIt was led by Dr Ethungshan Shitiri as an MSCA Postdoctoral Fellow at UPC, 
   </article>
   <article className="person-card">
     <p className="output-meta">Host team</p>
-    <h3>Prof Sergi Abadal</h3>
+    <h3>Associate Professor Sergi Abadal</h3>
     <p>UPC BarcelonaTech and N3Cat. Scientific collaboration on design space exploration, protocol design, and nanoscale communication systems.</p>
   </article>
   <article className="person-card">
-    <p className="output-meta">Secondment collaborator</p>
+    <p className="output-meta">Secondment host supervisor</p>
     <h3>Prof Ilangko Balasingham</h3>
-    <p>NTNU and Wireless Biomedical Sensor Network Research Group at Oslo University Hospital. Collaboration on passive wireless systems and biomedical communication.</p>
+    <p>WBRG at NTNU. Scientific support for passive wireless systems, biomedical communication, and secondment activity.</p>
   </article>
 </div>
 
-## Host and associated organisations
+## Host and secondment organisations
 
 <div className="link-grid">
   <article className="link-card">
@@ -51,14 +51,9 @@ BeNiFIt was led by Dr Ethungshan Shitiri as an MSCA Postdoctoral Fellow at UPC, 
     <a href="https://n3cat.upc.edu/">Visit N3Cat</a>
   </article>
   <article className="link-card">
-    <h3>NTNU and Oslo University Hospital</h3>
-    <p>Implemented secondment environment for COMSOL training and magnetic backscatter communication studies.</p>
+    <h3>WBRG at NTNU</h3>
+    <p>Secondment host for COMSOL training and magnetic backscatter communication studies.</p>
     <a href="https://www.ntnu.edu/">Visit NTNU</a>
-  </article>
-  <article className="link-card">
-    <h3>IBEC</h3>
-    <p>Associated partner in the original fellowship proposal, connected to the wider bioengineering and nanorobotics context.</p>
-    <a href="https://ibecbarcelona.eu/">Visit IBEC</a>
   </article>
 </div>
 

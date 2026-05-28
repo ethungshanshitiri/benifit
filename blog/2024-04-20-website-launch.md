@@ -8,11 +8,11 @@ date: 2024-04-20
 
 Welcome to the BeNiFIt website.
 
-This site hosts the public record for the BeNiFIt MSCA Postdoctoral Fellowship, including project context, research outputs, news, team information, and future software links.
+This site hosts BeNiFIt project context, research outputs, news, team information, and future software links.
 
 <!-- truncate -->
 
-News items will be used for short updates on the fellowship and its continuation record.
+News items will be used for short updates on the fellowship and related outputs.
 
 - New publications and preprints
 - Conference presentations and posters

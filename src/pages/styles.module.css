@@ -1,16 +1,16 @@
 .hero {
   position: relative;
   overflow: hidden;
-  min-height: 570px;
-  padding: 6rem 0 3.5rem;
+  min-height: 500px;
+  padding: 5rem 0 3rem;
   background:
-    linear-gradient(90deg, rgba(247, 250, 253, 0.98) 0%, rgba(247, 250, 253, 0.94) 46%, rgba(247, 250, 253, 0.55) 68%, rgba(247, 250, 253, 0.95) 100%),
-    url('../../static/img/BeNiFIt_Abstract.png') right 7% center / min(42vw, 520px) auto no-repeat,
+    linear-gradient(90deg, rgba(247, 250, 253, 0.99) 0%, rgba(247, 250, 253, 0.96) 48%, rgba(247, 250, 253, 0.7) 72%, rgba(247, 250, 253, 0.97) 100%),
+    url('../../static/img/BeNiFIt_Abstract.png') right 7% center / min(36vw, 430px) auto no-repeat,
     #f7fafd;
 }
 
 .heroContent {
-  max-width: 740px;
+  max-width: 680px;
   position: relative;
   z-index: 1;
 }
@@ -26,19 +26,27 @@
 }
 
 .title {
-  max-width: 760px;
-  margin-bottom: 1.2rem;
+  max-width: 680px;
+  margin-bottom: 1rem;
   color: var(--site-heading);
-  font-size: clamp(2.85rem, 4.8vw, 4.7rem);
-  line-height: 1;
+  font-size: clamp(2.6rem, 4vw, 3.7rem);
+  line-height: 1.03;
 }
 
 .subtitle {
-  max-width: 64ch;
-  margin-bottom: 1.9rem;
+  max-width: 58ch;
+  margin-bottom: 0.8rem;
   color: var(--site-muted);
-  font-size: 1.08rem;
-  line-height: 1.75;
+  font-size: 1.03rem;
+  line-height: 1.62;
+}
+
+.summary {
+  max-width: 64ch;
+  margin-bottom: 1.5rem;
+  color: var(--site-muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 .actions,
@@ -46,6 +54,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
+}
+
+.euLogo {
+  display: block;
+  width: min(260px, 78vw);
+  margin-top: 1.8rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid rgba(18, 40, 74, 0.12);
+  border-radius: 6px;
+  background: #ffffff;
 }
 
 .factBand {
@@ -59,8 +77,8 @@
 }
 
 .factItem {
-  min-height: 132px;
-  padding: 1.4rem 1.5rem;
+  min-height: 112px;
+  padding: 1.15rem 1.25rem;
   border-right: 1px solid var(--site-border);
 }
 
@@ -72,17 +90,17 @@
   display: block;
   margin-bottom: 0.55rem;
   color: var(--site-heading);
-  font-size: clamp(1.6rem, 3vw, 2.2rem);
-  line-height: 1;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.15;
 }
 
 .factItem span {
   color: var(--site-muted);
-  font-size: 0.98rem;
+  font-size: 0.92rem;
 }
 
 .section {
-  padding: 4.75rem 0;
+  padding: 3.4rem 0;
   background: var(--ifm-background-color);
 }
 
@@ -92,14 +110,14 @@
 
 .sectionIntro {
   max-width: 74ch;
-  margin-bottom: 2rem;
+  margin-bottom: 1.45rem;
 }
 
 .sectionIntro h2,
 .ctaBox h2 {
   color: var(--site-heading);
-  font-size: clamp(2rem, 3vw, 3rem);
-  line-height: 1.08;
+  font-size: clamp(1.5rem, 2.2vw, 2.05rem);
+  line-height: 1.16;
 }
 
 .sectionIntro p,
@@ -107,7 +125,15 @@
 .card p,
 .outcomeItem p {
   color: var(--site-muted);
-  line-height: 1.72;
+  line-height: 1.65;
+}
+
+.textLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
 }
 
 .splitSection {
@@ -146,20 +172,20 @@
 .card,
 .outcomeItem {
   min-height: 100%;
-  padding: 1.4rem;
+  padding: 1.15rem;
   border: 1px solid var(--site-border);
   border-radius: 8px;
   background: var(--site-surface);
-  box-shadow: 0 12px 26px rgba(18, 40, 74, 0.06);
+  box-shadow: 0 8px 20px rgba(18, 40, 74, 0.045);
 }
 
 .cardMarker {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.2rem;
-  height: 2.2rem;
-  margin-bottom: 1rem;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.85rem;
   border: 1px solid var(--site-border-strong);
   border-radius: 50%;
   color: var(--site-accent);
@@ -168,9 +194,9 @@
 
 .card h3,
 .outcomeItem h3 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.55rem;
   color: var(--site-heading);
-  font-size: 1.18rem;
+  font-size: 1.05rem;
 }
 
 .ctaSection {
@@ -182,7 +208,7 @@
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 2rem;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
   border: 1px solid var(--site-border-strong);
   border-radius: 8px;
   background: linear-gradient(135deg, var(--site-callout) 0%, var(--site-callout-alt) 100%);
@@ -195,10 +221,10 @@
 @media (max-width: 996px) {
   .hero {
     min-height: auto;
-    padding: 4.4rem 0 12rem;
+    padding: 4rem 0 10rem;
     background:
       linear-gradient(180deg, rgba(247, 250, 253, 0.98) 0%, rgba(247, 250, 253, 0.94) 58%, rgba(247, 250, 253, 0.6) 100%),
-      url('../../static/img/BeNiFIt_Abstract.png') right 1rem bottom 1rem / min(58vw, 360px) auto no-repeat,
+      url('../../static/img/BeNiFIt_Abstract.png') right 1rem bottom 1rem / min(52vw, 320px) auto no-repeat,
       #f7fafd;
   }
 
@@ -224,21 +250,21 @@
 
 @media (max-width: 640px) {
   .hero {
-    padding: 3.4rem 0 9.5rem;
+    padding: 3rem 0 8.5rem;
     background:
       linear-gradient(180deg, rgba(247, 250, 253, 0.98) 0%, rgba(247, 250, 253, 0.95) 64%, rgba(247, 250, 253, 0.58) 100%),
-      url('../../static/img/BeNiFIt_Abstract.png') center bottom 1rem / min(86vw, 320px) auto no-repeat,
+      url('../../static/img/BeNiFIt_Abstract.png') center bottom 1rem / min(82vw, 290px) auto no-repeat,
       #f7fafd;
   }
 
   .title {
     max-width: none;
-    font-size: 2.2rem;
-    line-height: 1.06;
+    font-size: 2.05rem;
+    line-height: 1.1;
   }
 
   .subtitle {
-    font-size: 1rem;
+    font-size: 0.98rem;
     line-height: 1.55;
   }
 
@@ -262,14 +288,14 @@
   }
 
   .section {
-    padding: 3.3rem 0;
+    padding: 2.6rem 0;
   }
 }
 
 :global(html[data-theme='dark']) .hero {
   background:
-    linear-gradient(90deg, rgba(9, 18, 32, 0.98) 0%, rgba(9, 18, 32, 0.94) 46%, rgba(9, 18, 32, 0.58) 70%, rgba(9, 18, 32, 0.98) 100%),
-    url('../../static/img/BeNiFIt_Abstract.png') right 7% center / min(42vw, 520px) auto no-repeat,
+    linear-gradient(90deg, rgba(9, 18, 32, 0.98) 0%, rgba(9, 18, 32, 0.95) 48%, rgba(9, 18, 32, 0.68) 72%, rgba(9, 18, 32, 0.98) 100%),
+    url('../../static/img/BeNiFIt_Abstract.png') right 7% center / min(36vw, 430px) auto no-repeat,
     #091220;
 }
 
@@ -277,7 +303,7 @@
   :global(html[data-theme='dark']) .hero {
     background:
       linear-gradient(180deg, rgba(9, 18, 32, 0.98) 0%, rgba(9, 18, 32, 0.94) 58%, rgba(9, 18, 32, 0.7) 100%),
-      url('../../static/img/BeNiFIt_Abstract.png') right 1rem bottom 1rem / min(58vw, 360px) auto no-repeat,
+      url('../../static/img/BeNiFIt_Abstract.png') right 1rem bottom 1rem / min(52vw, 320px) auto no-repeat,
       #091220;
   }
 }
@@ -286,7 +312,7 @@
   :global(html[data-theme='dark']) .hero {
     background:
       linear-gradient(180deg, rgba(9, 18, 32, 0.98) 0%, rgba(9, 18, 32, 0.95) 64%, rgba(9, 18, 32, 0.74) 100%),
-      url('../../static/img/BeNiFIt_Abstract.png') center bottom 1rem / min(86vw, 320px) auto no-repeat,
+      url('../../static/img/BeNiFIt_Abstract.png') center bottom 1rem / min(82vw, 290px) auto no-repeat,
       #091220;
   }
 }

@@ -10,7 +10,7 @@ The BeNiFIt MSCA Postdoctoral Fellowship ran from April 2024 to March 2026.
 
 <!-- truncate -->
 
-The website will continue as the public record for the project. It will gather publications, software links, news, secondment activity, and follow on updates through the post fellowship maintenance period.
+The website will continue to gather publications, software links, news, secondment activity, and follow on updates through the post fellowship maintenance period.
 
 The main scientific record is organised around three objectives.
 
