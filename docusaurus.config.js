@@ -2,7 +2,7 @@
 
 const config = {
   title: 'BeNiFIt',
-  tagline: 'In vivo biomarker sensing through intrabody nanoscale communication',
+  tagline: 'MSCA fellowship on intrabody nanoscale communication for in vivo biomarker sensing',
   favicon: 'img/benifit-mark.svg',
 
   url: 'https://ethungshanshitiri.github.io',
@@ -13,7 +13,12 @@ const config = {
   trailingSlash: true,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    }
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -58,7 +63,7 @@ const config = {
           {to: '/research-outputs', label: 'Research Outputs', position: 'left'},
           {to: '/news', label: 'News & Media', position: 'left'},
           {to: '/team-contact', label: 'Team & Contact', position: 'left'},
-          {href: 'https://github.com/ethungshanshitiri', label: 'GitHub', position: 'right'}
+          {href: 'https://github.com/ethungshanshitiri/benifit', label: 'GitHub', position: 'right'}
         ]
       },
       footer: {
@@ -71,7 +76,8 @@ const config = {
               {label: 'Project', to: '/project'},
               {label: 'Research Outputs', to: '/research-outputs'},
               {label: 'News & Media', to: '/news'},
-              {label: 'Team & Contact', to: '/team-contact'}
+              {label: 'Team & Contact', to: '/team-contact'},
+              {label: 'Outreach', to: '/outreach'}
             ]
           },
           {
@@ -79,6 +85,7 @@ const config = {
             items: [
               {label: 'GitHub profile', href: 'https://github.com/ethungshanshitiri'},
               {label: 'Project repository', href: 'https://github.com/ethungshanshitiri/benifit'},
+              {label: 'Simulator repository', href: 'https://github.com/ethungshanshitiri/intrabodySimulator'},
               {label: 'UPC', href: 'https://www.upc.edu/en'},
               {label: 'N3Cat', href: 'https://n3cat.upc.edu/'}
             ]
@@ -87,11 +94,12 @@ const config = {
             title: 'Partners',
             items: [
               {label: 'NTNU', href: 'https://www.ntnu.edu/'},
+              {label: 'IBEC', href: 'https://ibecbarcelona.eu/'},
               {label: 'WBRG', href: 'https://ous-research.no/balasingham/'}
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BeNiFIt. Built with Docusaurus and deployed on GitHub Pages.`
+        copyright: `Copyright © ${new Date().getFullYear()} BeNiFIt. MSCA fellowship public record built with Docusaurus and deployed on GitHub Pages.`
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,

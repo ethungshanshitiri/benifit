@@ -23,6 +23,9 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
+  "overrides": {
+    "webpack": "5.99.9"
+  },
   "engines": {
     "node": ">=20.0"
   },

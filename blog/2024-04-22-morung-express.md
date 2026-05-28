@@ -8,6 +8,8 @@ date: 2024-04-22
 
 Morung Express reported on the BeNiFIt project and the Marie Skłodowska-Curie Actions Postdoctoral Fellowship awarded by the European Commission.
 
-Read the article here:
+<!-- truncate -->
 
-- [Naga lad wins European Commission grant](https://morungexpress.com/naga-lad-wins-european-commission-grant)
+The coverage forms part of the public communication record for the fellowship launch.
+
+- [Read the Morung Express article](https://morungexpress.com/naga-lad-wins-european-commission-grant)

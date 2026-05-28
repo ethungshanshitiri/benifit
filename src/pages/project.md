@@ -3,13 +3,53 @@ title: Project
 slug: /project
 ---
 
+<p className="page-kicker">Original MSCA fellowship view</p>
 
-Chronic diseases such as cancer, Alzheimer’s disease, and diabetes place a major burden on patients, healthcare systems, and society. Better outcomes depend strongly on earlier diagnosis and closer monitoring over time. Yet this remains difficult when disease signals are present in very small amounts and when current tests depend on taking samples out of the body and processing them in the laboratory. Even when these approaches are less invasive than traditional tissue biopsy, they can still be slow, costly, and limited in their ability to capture rare biomarkers at the earliest stages of disease.
+# Project
 
-BeNiFIt addresses this challenge by exploring a new way to detect disease biomarkers directly inside the body. The project focuses on intra-body nanoscale communication systems, in which extremely small devices, called nanomachines, move through the bloodstream, sense target biomarkers, and pass information to an on-body gateway that can connect to external medical systems. This approach aims to support a future generation of diagnostic and monitoring tools that are minimally invasive, faster, and more suitable for continuous or repeated use.
+<p className="lead">
+BeNiFIt is the Horizon Europe MSCA Postdoctoral Fellowship 101154851, titled Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In Body Diagnostics and Monitoring Systems.
+</p>
 
-Cancer provides the main case study for the project because early-stage cancer detection is especially difficult when biomarker levels are low, unstable, and unevenly distributed in blood. At the same time, the broader vision of BeNiFIt extends beyond cancer. The same scientific and engineering principles could support earlier detection and monitoring for other chronic diseases in which timely identification of molecular signs is important for treatment decisions and patient care.
+The fellowship was proposed to explore whether intrabody nanoscale communication can make in vivo biomarker detection feasible. The long term vision is faster, less invasive, and more continuous biomarker monitoring. The fellowship itself focused on modelling, simulation, communication design, and reusable research methods.
 
-The overall objective of BeNiFIt is to show that intra-body nanoscale communications can make in vivo biomarker detection feasible and useful for medical diagnostics. To achieve this, the project pursues three connected goals. First, it investigates how nanomachines equipped with biosensing capabilities can detect biomarkers accurately inside the bloodstream, including under low-concentration conditions. Second, it develops a communication architecture that allows these very small devices to share or relay information while respecting strict constraints on size, energy use, and safety in the human body. Third, it builds a multi-scale simulation framework that can model the full system and support the design, evaluation, and optimization of future in-body diagnostic platforms.
+## Why the project matters
 
-Through this pathway, BeNiFIt aims to lay the scientific and technological foundation for faster and less burdensome biomarker-based diagnostics. In the longer term, this could help move healthcare toward earlier intervention, more timely clinical decisions, and more accessible monitoring methods for diseases where speed and sensitivity matter most.
+Early detection is important for improving outcomes in chronic diseases. Current biomarker analysis still depends heavily on collecting limited samples, processing them outside the body, and waiting for results. This can miss rare early signals, especially when disease related biomarkers are present at very low concentrations.
+
+BeNiFIt asks whether the sensing event can move closer to where biomarkers circulate. In the proposed vision, nanomachines move through blood vessels, detect target biomarkers, and communicate information toward an external or on body system. This remains a research vision rather than a deployed system.
+
+## Scientific objectives
+
+### O1 In vivo biomarker sensing
+
+Demonstrate the competence of intrabody nanoscale communication for in vivo detection of biomarkers with high accuracy. The project used early stage cancer and circulating tumour DNA as the main case study for modelling vascular biomarker detection.
+
+### O2 In body to on body communication
+
+Design a communication architecture that respects the hardware, energy, and safety requirements of intrabody nanodevices. The project studied near field magnetism and passive magnetic backscatter as candidate routes for links between internal nanodevices and external or on body readers.
+
+### O3 Multi scale simulation
+
+Develop a system level simulator that spans microscopic and macroscopic scales. The simulator direction connects sensing models, magnetic link models, vascular scenarios, and design space exploration.
+
+## Fellowship record
+
+| Item | Record |
+| --- | --- |
+| Programme | Horizon Europe MSCA Postdoctoral Fellowships 2023 |
+| Action | European Fellowship |
+| Grant agreement | 101154851 |
+| Host institution | Universitat Politecnica de Catalunya |
+| Host group | NaNoNetworking Center in Catalonia |
+| Fellow | Dr Ethungshan Shitiri |
+| Supervisor | Prof Eduard Alarcon |
+| Fellowship period | April 2024 to March 2026 |
+
+## Scope and maturity
+
+BeNiFIt remained at modelling, simulation, and design analysis maturity. The project did not claim experimental deployment. Its contribution is a scientific foundation for future work on intrabody nanonetworks, vascular biomarker sensing, passive communication links, and open simulation tools.
+
+## Longer term direction
+
+The project website remains the public entry point for outputs, activities, and follow on updates. The post fellowship plan is to maintain the site through March 2030, add new publications and software links where relevant, and support reuse of modelling methods and simulator components.

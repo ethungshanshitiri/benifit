@@ -3,43 +3,33 @@ title: Outreach
 slug: /outreach
 ---
 
+<p className="page-kicker">Communication and dissemination</p>
 
-BeNiFIt includes a public communication component designed to explain why in vivo sensing matters, what the project is trying to achieve, and how its ideas may eventually support faster and less invasive diagnostics.
+# Outreach
+
+<p className="lead">
+BeNiFIt uses the website, news items, invited talks, media coverage, and public summaries to explain why intrabody nanoscale communication matters for future biomarker sensing research.
+</p>
 
 ## Public communication
 
-The website can host concise project summaries, simple graphics, explanatory figures, and infographics that make the core ideas accessible to non-specialist audiences.
+The communication plan focuses on plain language explanations of the project rationale, research outputs, and follow on reuse of methods and software. The website remains the main public entry point for these materials.
 
-## Planned engagement channels
+## Activities
 
-- Social media updates for project milestones, publications, and visuals
-- Public-facing explainers that translate technical ideas into plain language
-- Short updates suitable for students, researchers, clinicians, and the wider public
+- Project website launched as the public entry point for BeNiFIt
+- Media coverage of the MSCA fellowship award in regional outlets
+- Invited talk at Symbiosis Institute of Technology Pune
+- Academic secondment at Oslo University Hospital and NTNU
+- Continued updates on publications, software release, and follow on work
 
-## Events and activities
+## Audiences
 
-BeNiFIt's communication plan includes activities such as the following.
+- Researchers in nanonetworks, molecular communication, biomedical communication, and digital health
+- Students and early career researchers interested in intrabody nanoscale communication
+- Public audiences interested in less invasive and faster biomarker monitoring research
+- Institutions and collaborators connected to MSCA, UPC, N3Cat, NTNU, Oslo University Hospital, and IBEC
 
-- Webinars linked to distinct project objectives
-- Pint of Science Spain
-- ESCOLAB
-- Science is Wonderful!
-- Science Week
-- European Researchers' Night
+## Continued maintenance
 
-## Stakeholder engagement
-
-The project also aims to stay connected to groups who may eventually benefit from or help shape its direction.
-
-- Medical professionals and healthcare stakeholders
-- Patient advocacy groups
-- Students and early-career researchers
-- Citizen science and broader public audiences
-
-## Media and collaboration enquiries
-
-Replace this section with your preferred contact channel for media requests, invited talks, outreach collaborations, or educational material requests.
-
-- Project lead contact
-- Institutional contact
-- Media kit download
+The project website will remain online after the fellowship and will be reviewed periodically until March 2030. New publications, preprints, talks, posters, software releases, datasets, and related updates will be linked through the website where relevant.

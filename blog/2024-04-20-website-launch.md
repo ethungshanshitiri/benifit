@@ -3,16 +3,18 @@ slug: website-launch
 title: The BeNiFIt website is now live
 authors: [ethungshan]
 tags: [website, project]
+date: 2024-04-20
 ---
 
 Welcome to the BeNiFIt website.
 
-This site is designed to host project updates, research outputs, outreach activities, and public-facing material around in vivo biomarker sensing through intrabody nanoscale communication.
+This site hosts the public record for the BeNiFIt MSCA Postdoctoral Fellowship, including project context, research outputs, news, team information, and future software links.
 
-Over time, this section can be used for short announcements such as the following.
+<!-- truncate -->
 
-- Website updates
+News items will be used for short updates on the fellowship and its continuation record.
+
 - New publications and preprints
 - Conference presentations and posters
-- Webinar notices
-- Public releases of software or generated datasets
+- Secondment and invited talk updates
+- Public releases of software, datasets, or examples
